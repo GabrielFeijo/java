@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
  public static void main(String[] args) {   
         int idade;
         String maior; 
@@ -18,5 +18,7 @@ public class main {
 
         System.out.println(idade);
         System.out.println(maior);
+
+        ler.close();
     }
 }

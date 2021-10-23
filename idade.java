@@ -20,7 +20,7 @@ public class idade {
 
         verif(atual,nasc);
 
-
-
+       ler.close();
+   
     } 
 }
