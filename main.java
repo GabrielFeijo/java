@@ -13,7 +13,7 @@ public class main {
         if(idade > 18){
           maior = "Você é de maior";
         }else{
-            maior = "Você é de menor" ;
+            maior = "Você é de menor";
         }
 
         System.out.println(idade);
