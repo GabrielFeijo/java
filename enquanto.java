@@ -5,7 +5,7 @@ public class enquanto {
       int c,i;
  
       Scanner ler = new Scanner(System.in);
-
+     
       c = 0;
       System.out.println();
       while (c<11){
@@ -22,12 +22,12 @@ public class enquanto {
        System.out.println();
        System.out.println("Escreva um número para finalizar a do...while.");
        i = ler.nextInt();
+       
        c = 0;
        do{
         System.out.print(c + ".. "); 
         c++;
        }while (c<=i);
-
        ler.close();
     }
 }
