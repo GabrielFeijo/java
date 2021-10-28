@@ -16,7 +16,7 @@ public class salario_porcetagem {
         novo = valor - total;
 
         
-        System.out.printf("O valor de " + porce + " de seu salário é %.2f.%n", total );
+        System.out.printf("O valor de " + porce + " porcento de seu salário é %.2f.%n", total );
         System.out.printf("O salário no valor de " + valor + "  -  %.2f.%n" , total );
         System.out.printf("É igual a %.2f.%n" , novo);
         
