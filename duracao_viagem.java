@@ -11,10 +11,10 @@ public class duracao_viagem {
         System.out.print("Quantas horas duraram a viagem? ");
         numeroHoras = ler.nextDouble();
 
-        totalHoras = (numeroDias * 24) + numeroHoras;
+        totalHoras = numeroDias * 24 + numeroHoras;
 
         System.out.print("O total foi de " + totalHoras + " horas.");
-       
+     
 
         ler.close();
 
