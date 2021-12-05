@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class nomes {
  public static void main(String[] args) {   
         int idade;
         String maior; 
